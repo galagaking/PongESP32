@@ -82,8 +82,6 @@ Credits on the RGB display routines:
 //const char* WIFI_SSID = "<YOUR SSID>";
 //const char* WIFI_PWD = "<YOUR WIFI CODE>";
 
-const char* WIFI_SSID = "Warehouse of innovation";
-const char* WIFI_PWD = "magazijn";
 
 #define TZ              2       // (utc+) TZ in hours
 #define DST_MN          60      // use 60mn for summer time in some countries
@@ -114,7 +112,7 @@ String OPEN_WEATHER_MAP_LOCATION_ID = "2756253";
 // Slovenian - sl, Spanish - es, Turkish - tr, Ukrainian - ua, Vietnamese - vi,
 // Chinese Simplified - zh_cn, Chinese Traditional - zh_tw.
 String OPEN_WEATHER_MAP_LANGUAGE = "nl";
-#define endpoint "http://api.openweathermap.org/data/2.5/weather?id=2756253&appid=74926df1f34f28ad6ca624530ab7fefe&units=metric&lang=nl"
+
 const uint8_t MAX_FORECASTS = 4;
 
 OpenWeatherMapCurrentData currentWeather;
